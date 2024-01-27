@@ -4,7 +4,7 @@ compose:
   files:
     - docker-compose.yml
     - docker-compose.$DIP_OS.yml
-  project_name: c4model
+  project_name: asciidoc-illustration
 
 environment:
   WORKSPACE_PATH: workspace.dsl

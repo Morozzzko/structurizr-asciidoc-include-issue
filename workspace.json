@@ -2,15 +2,15 @@
   "id" : 1,
   "name" : "Sample",
   "description" : "This workspace illustrates issues that have been found while using include",
-  "lastModifiedDate" : "2024-01-27T01:21:37Z",
+  "lastModifiedDate" : "2024-01-29T03:19:42Z",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlICJTYW1wbGUiICJUaGlzIHdvcmtzcGFjZSBpbGx1c3RyYXRlcyBpc3N1ZXMgdGhhdCBoYXZlIGJlZW4gZm91bmQgd2hpbGUgdXNpbmcgaW5jbHVkZSIgewogICAgIWRvY3MgZG9jcy9hcmM0MiAKCiAgICBtb2RlbCB7CiAgICB9CgogICAgdmlld3MgewogICAgfQp9Cg=="
+    "structurizr.dsl" : "d29ya3NwYWNlICJTYW1wbGUiICJUaGlzIHdvcmtzcGFjZSBpbGx1c3RyYXRlcyBpc3N1ZXMgdGhhdCBoYXZlIGJlZW4gZm91bmQgd2hpbGUgdXNpbmcgaW5jbHVkZSIgewogICAgIWRvY3MgZG9jcy9hcmM0MgoKICAgIG1vZGVsIHsKICAgIH0KCiAgICB2aWV3cyB7CiAgICB9CgogICAgIXNjcmlwdCBzY3JpcHRzL2FsbG93LWltcG9ydC1pbi1hc2NpaWRvYy5yYgp9Cg=="
   },
   "configuration" : { },
   "model" : { },
   "documentation" : {
     "sections" : [ {
-      "content" : "[[section-introduction-and-goals]]\n== Introduction and Goals\n\n.Same dir\n[%collapsible]\n----\ninclude::introduction.adoc[]\n----\n\n.Other dir\n[%collapsible]\n----\ninclude::../other_path.adoc[]\n----\n",
+      "content" : "[[section-introduction-and-goals]]\n== Introduction and Goals\n\n.Same dir\n[%collapsible]\n----\nI'm a part of introduction.adoc\n\n----\n\n.Other dir\n[%collapsible]\n----\nI'm a part of other path\n\n----\n",
       "format" : "AsciiDoc",
       "filename" : "01_introduction_and_goals.adoc",
       "order" : 1,

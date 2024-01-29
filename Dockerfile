@@ -41,7 +41,7 @@ RUN mkdir -p "$GEM_HOME" && chmod 777 "$GEM_HOME"
 
 # Install REPL
 
-ARG STRUCTURIZR_GEM_VERSION=1.26.1
+ARG STRUCTURIZR_GEM_VERSION=1.29.0
 RUN jruby -S gem install structurizr -v $STRUCTURIZR_GEM_VERSION
 
 RUN apt-get update && apt-get install adr-tools
